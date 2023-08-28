@@ -6,7 +6,7 @@ Command-line tool based on [OpenPDF](https://github.com/LibrePDF/OpenPDF) and [S
 
 ## Implementation
 
-PDF is great format for printing on paper, but not so great when it comes to reading from electronic devices. Usually most PDF documents has margins on each page which makes sense for printing, but waste of precious display space on some devices with smaller screen.
+PDF is a great format for printing on paper, but not so great when it comes to reading from electronic devices. Usually, most PDF documents have margins on each page, which makes sense for printing but is a waste of precious display space on some devices with smaller screens.
 
 Each PDF page has special MediaBox object which basically describes the size of the page. Here is the trick: by changing it's values we can "zoom" the page in ignoring empty margins and increasing content size a little bit.
 
